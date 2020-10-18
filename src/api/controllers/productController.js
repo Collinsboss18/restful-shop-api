@@ -28,7 +28,7 @@ exports.getAllProducts = (req, res, next) => {
 			} else {
 				res
 					.status(404)
-					.json({ message: 'No Product Available in the Collection' });
+					.json({ message: 'No Product Available' });
 			}
 		})
 		.catch((err) => {
