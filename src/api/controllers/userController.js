@@ -10,7 +10,7 @@ exports.signup = (req, res, next) => {
 		.then((user) => {
 			if (user.length >= 1) {
 				return res.status(409).json({
-					message: 'User with the Email Already Exist.'
+					message: 'A User with the Email Already Exist.'
 				});
 			} else {
 				bcrypt.hash(req.body.password, 10, (err, hash) => {
