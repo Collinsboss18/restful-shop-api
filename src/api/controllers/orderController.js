@@ -12,7 +12,7 @@ exports.getAllOrders = (req, res, next) => {
 			if (!documets.length > 0) {
 				res
 					.status(404)
-					.json({ message: 'No Order Available in the Collection' });
+					.json({ message: 'No Order Available' });
 			} else {
 				const queryResult = {
 					count: documets.length,
