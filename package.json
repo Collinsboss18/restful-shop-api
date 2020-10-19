@@ -13,7 +13,7 @@
 		"shop",
 		"api"
 	],
-	"author": "Collins Charles",
+	"author": "Charles Collins",
 	"license": "ISC",
 	"dependencies": {
 		"bcrypt": "^3.0.8",
