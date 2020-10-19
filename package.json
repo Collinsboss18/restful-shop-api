@@ -1,5 +1,5 @@
 {
-	"name": "restful-shop",
+	"name": "shop-api",
 	"version": "1.0.0",
 	"description": "A Node JS Restful Shop API Development",
 	"main": "src/server.js",
