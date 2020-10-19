@@ -13,7 +13,7 @@
 		"shop",
 		"api"
 	],
-	"author": "Kater Akeren",
+	"author": "Collins Charles",
 	"license": "ISC",
 	"dependencies": {
 		"bcrypt": "^3.0.8",
